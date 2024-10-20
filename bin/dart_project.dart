@@ -156,7 +156,9 @@ void main() {
       case '1':
         mainTasks();
         break;
-      case '0': return;
+      case '0': 
+        print("\nExiting...");
+        return;
       default: print("Enter a Valid Choice");
     }
   }
